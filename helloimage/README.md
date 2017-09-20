@@ -1,12 +1,19 @@
 
+# Create Dockerfile
 ```
-Create Dockerfile
+FROM ubuntu
+CMD  echo "hello world"
 ```
-Build Docker Image
+
+# Build Docker Image
 ```
 docker image build -t helloworld .
 ``
-List Docker Image
+# List Docker Image
 ```
 docker image ls
+```
+# Run docker image
+```
+docker container run helloworld
 ```
