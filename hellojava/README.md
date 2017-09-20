@@ -17,3 +17,11 @@ docker image ls
 ```
 docker container run hellojava
 ```
+
+#Image reduction
+```
+Follow hub.docker.com openjdk and it's tags
+Specify the tags with the least size in  Dockerfile to create image from
+
+FROM openjdk:jdk-alpine
+```
